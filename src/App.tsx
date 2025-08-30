@@ -438,12 +438,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex items-center justify-center mb-4">
-              <img 
-                src="/logo.png" 
-                alt="Asonikibe Ltd" 
-                className="h-12 w-auto object-contain"
-              />
-              <span className="text-2xl font-bold">Asonikibe Ltd</span>
+            <Globe className="h-8 w-8 text-amber-600 mr-2" />
+            <span className="text-2xl font-bold text-slate-800">Asonikibe Ltd</span>
+            <span className="text-2xl font-bold">Asonikibe Ltd</span>
             </div>
             <p className="text-slate-300 mb-6">
               Empowering African Trade • Your Gateway to Global Markets
