@@ -382,7 +382,6 @@ function App() {
               </div>
               <h3 className="text-lg font-semibold mb-2">Call Us</h3>
               <p className="text-slate-300">Nigeria:+234 811 808 8072</p>
-              <p className="text-slate-300">+Canada: +1 (639) 994-4721</p>
             </div>
 
             <div className="text-center">
