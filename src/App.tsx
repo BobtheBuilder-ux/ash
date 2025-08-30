@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Globe, Users, TrendingUp, MapPin, Mail, Phone, Menu, X, CheckCircle, ArrowRight, Building2, Target, Handshake, Zap, Instagram } from 'lucide-react';
+import { useState } from 'react';
+import { Users, TrendingUp, MapPin, Mail, Phone, Menu, X, CheckCircle, ArrowRight, Building2, Target, Handshake, Zap, Instagram } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,8 +15,13 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Globe className="h-8 w-8 text-amber-600 mr-2" />
-              <span className="text-2xl font-bold text-slate-800">Asonikibe Ltd</span>
+              <a href="#home" className="flex items-center">
+                <img 
+                  src="/logo.png" 
+                  alt="Asonikibe Ltd" 
+                  className="h-12 w-auto object-contain hover:opacity-90 transition-opacity"
+                />
+              </a>
             </div>
             
             {/* Desktop Navigation */}
@@ -179,7 +184,7 @@ function App() {
 
             <div className="bg-slate-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 group">
               <div className="bg-purple-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-colors">
-                <Globe className="h-8 w-8 text-purple-600" />
+                <Target className="h-8 w-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Market Access Solutions</h3>
               <p className="text-slate-600 leading-relaxed">
@@ -246,7 +251,7 @@ function App() {
 
             <div className="text-center">
               <div className="bg-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Globe className="h-10 w-10 text-white" />
+                <Target className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Strategic Bridge</h3>
               <p className="text-slate-300">
@@ -368,6 +373,7 @@ function App() {
               </div>
               <h3 className="text-lg font-semibold mb-2">Email Us</h3>
               <p className="text-slate-300">info@asonikibe.com</p>
+              <p className="text-slate-300">asonikibeltd@gmail.com</p>
             </div>
 
             <div className="text-center">
@@ -375,7 +381,8 @@ function App() {
                 <Phone className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Call Us</h3>
-              <p className="text-slate-300">+234 811 808 8072</p>
+              <p className="text-slate-300">Nigeria:+234 811 808 8072</p>
+              <p className="text-slate-300">+Canada: +1 (639) 994-4721</p>
             </div>
 
             <div className="text-center">
@@ -383,7 +390,8 @@ function App() {
                 <MapPin className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
-              <p className="text-slate-300">Port Harcourt & Abuja</p>
+              <p className="text-slate-300">Abuja: 32 Awka Crescent, War College Gwarinpa Abuja</p>
+              <p className="text-slate-300">P/H: Federal Site Estate Rumuodomaya by Obio-Akpo local government council headquarters</p>
             </div>
           </div>
 
@@ -436,7 +444,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex items-center justify-center mb-4">
-              <Globe className="h-8 w-8 text-amber-600 mr-2" />
+              <img 
+                src="/logo.png" 
+                alt="Asonikibe Ltd" 
+                className="h-12 w-auto object-contain"
+              />
               <span className="text-2xl font-bold">Asonikibe Ltd</span>
             </div>
             <p className="text-slate-300 mb-6">
