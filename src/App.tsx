@@ -439,7 +439,6 @@ function App() {
           <div className="text-center">
             <div className="flex items-center justify-center mb-4">
             <Globe className="h-8 w-8 text-amber-600 mr-2" />
-            <span className="text-2xl font-bold text-slate-800">Asonikibe Ltd</span>
             <span className="text-2xl font-bold">Asonikibe Ltd</span>
             </div>
             <p className="text-slate-300 mb-6">
