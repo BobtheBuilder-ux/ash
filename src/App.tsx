@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Users, TrendingUp, MapPin, Mail, Phone, Menu, X, CheckCircle, ArrowRight, Building2, Target, Handshake, Zap, Instagram } from 'lucide-react';
+import { Globe, Users, TrendingUp, MapPin, Mail, Phone, Menu, X, CheckCircle, ArrowRight, Building2, Target, Handshake, Zap, Instagram } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,13 +15,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <a href="#home" className="flex items-center">
-                <img 
-                  src="/logo.png" 
-                  alt="Asonikibe Ltd" 
-                  className="h-12 w-auto object-contain hover:opacity-90 transition-opacity"
-                />
-              </a>
+            <Globe className="h-8 w-8 text-amber-600 mr-2" />
+            <span className="text-2xl font-bold text-slate-800">Asonikibe Ltd</span>
             </div>
             
             {/* Desktop Navigation */}
